@@ -1,0 +1,14 @@
+{
+  "name": "xxxx",
+  "description": "It plays music via Alexa",
+  "region": "eu-west-1",
+  "handler": "main.lambda_handler",
+  "role": "arn:aws:iam::123123:role/xxxx_iam_role",
+  "requirements": ["Fuzzy"],
+  "ignore": [
+    ".git",
+    "/*.pyc"
+  ],
+  "timeout": 5,
+  "memory": 128
+}
